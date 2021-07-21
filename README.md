@@ -27,9 +27,7 @@ There are three Python scripts:
 I've added a ```#customize``` note behind each line that needs to be customized to the specific outlet. The key is to find the right HTML tag to retrieve the title of article, the content of the article (paragraph by paragraph), and the comments of blog articles. See the scripts for further documentation.
 
 # External dependencies, or what the script needs to run 
-* Beautiful Soup (https://pypi.org/project/beautifulsoup4/) to parse and search HTML files as a "soup" object. 
-
-Install here ```pip install beautifulsoup4``` 
+* Beautiful Soup (https://pypi.org/project/beautifulsoup4/) to parse and search HTML files as a "soup" object. Install here ```pip install beautifulsoup4``` 
 
 # Instructions 
 1. Put all files in the same folder. The created html file will also be created in this folder. 
