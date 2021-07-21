@@ -10,9 +10,10 @@ Output: a compiled HTML file
 Example output: see TaipeiTimes_20210721.html
 
 # Applicability 
-These scripts are highly specific to the publications they're targetting. They are thus not for general use. 
-The News package (Execute_News,py, HTML_News.py, Class_News.py) is for Taipei Times (http://www.taipeitimes.com/)
-The Blog package (Execute_Blog.py, HTML_Blog.py, Class_Blog.py) is for The Philosopher's Cocoon (https://philosopherscocoon.typepad.com/)
+These scripts are highly specific to the publications they're targetting. They are thus not for general use, but are super easy to tweak.
+The Taipei Times folder (Execute_News,py, HTML_News.py, Class_News.py)  (http://www.taipeitimes.com/), focused on front page and Taiwan news sections
+The Philosopher's Cocoon folder (Execute_Blog.py, HTML_Blog.py, Class_Blog.py) (https://philosopherscocoon.typepad.com/), July archive, 30 posts with comments
+The Daily Nous folder (Execute_Blog.py, HTML_Blog.py, Class_Blog.py) (https://dailynous.com/2021/07/), July archive, 30 posts without comments
 
 Other packages have been developed for magazines, etc, but will not be made available here for obvious reasons. 
 The principles are the same, which will be explained in detail below. The user is encouraged to use and modify the scripts for their own purposes.
