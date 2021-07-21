@@ -34,7 +34,7 @@ I've added a ```#customize``` note behind each line that needs to be customized 
 1. Put all files in the same folder. The created html file will also be created in this folder. 
 2. Run ``` python Execute_News.py``` in command line (or python Execute_Blog.py, etc) 
 
-You can find the output as an html file ```Name_Date.html``` (e.g., TaipeiTimes_20210721) in the folder. 
+You can find the output as an html file ```Name_Date.html``` (e.g., TaipeiTimes_20210721.html) in the folder. 
 
 
 Let me know what you think!
