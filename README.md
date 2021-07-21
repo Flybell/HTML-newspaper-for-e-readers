@@ -7,6 +7,8 @@ Output: a compiled HTML file
 * Articles (with a back to TOC hyperlink at the end of each article)
 * Comments under a blog
 
+Example output: see TaipeiTimes_20210721.html
+
 These scripts are highly specific to the publications they're targetting. They are thus not for general use. 
 The News package (Execute_News,py, HTML_News.py, Class_News.py) is for Taipei Times (http://www.taipeitimes.com/)
 The Blog package (Execute_Blog.py, etc) is for The Philosopher's Cocoon (https://philosopherscocoon.typepad.com/)
@@ -31,5 +33,6 @@ I've added a ```#customize``` note behind each line that needs to be customized 
 2. Run ``` python Execute_News.py``` in command line (or python Execute_Blog.py, etc) 
 
 You can find the output as an html file ```Name_Date.html``` (e.g., TaipeiTimes_20210721) in the folder. 
+
 
 Let me know what you think!
