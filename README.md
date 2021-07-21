@@ -1,9 +1,10 @@
 # HTML newspaper for e-readers 
-Crawls and scrapes a site (news, magazine, blog, etc) to compile a lightly formatted html file for conversion into PDF, EPUB, etc., by programs like Calibre. 
+Crawls and scrapes a site (news, magazine, blog, etc) for articles to compile into a lightly formatted .html file for conversion into PDF, EPUB, etc., by programs like Calibre. Personal use case: the .html file is loaded into Calibre to convert into a .MOBI file for Kindle and a PDF file for a large e-reader. 
 
 Output: a compiled HTML file 
-* Table of Contents (hyperlinked) 
-* Articles (with back to TOC link)
+* Table of Contents (hyperlinked to article titles) 
+* Date of issue 
+* Articles (with a back to TOC hyperlink at the end of each article)
 * Comments under a blog
 
 These scripts are highly specific to the publications they're targetting. They are thus not for general use. 
