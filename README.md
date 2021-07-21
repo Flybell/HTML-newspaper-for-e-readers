@@ -1,5 +1,5 @@
 # HTML newspaper for e-readers 
-Crawls and scrapes a site (news, magazine, blog, etc) for articles to compile into a lightly formatted .html file for conversion into PDF, EPUB, etc., by programs like Calibre. Personal use case: the .html file is loaded into Calibre to convert into a .MOBI file for Kindle and a PDF file for a large e-reader. 
+Crawls and scrapes a site or rss feed (news, magazine, blog, etc) for articles to compile into a lightly formatted .html file for conversion into PDF, EPUB, etc., by programs like Calibre. Personal use case: the .html file is loaded into Calibre to convert into a .MOBI file for Kindle and a PDF file for a large e-reader. 
 
 Output: a compiled HTML file 
 * Table of Contents (hyperlinked to article titles) 
