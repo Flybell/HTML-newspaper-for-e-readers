@@ -24,7 +24,7 @@ There are three Python scripts:
 * HTML writer (HTML_News.py, HTML_Blog.py, etc)
 * Class file of objects (Class_News.py, Class_Blog.py, etc)
 
-*Execute* is the main script. It uses the *Class* file to create objects of each issue (a collection of articles) and each article. It then sends these objects to the *HTML* writer to create and compile a basic formatted html file. A very simple three step process. 
+*Execute* is the main script. It uses the *Class* file to grab information from the site (sometimes RSS feed, sometimes a particular page, e.g., the July archive) and create objects of each issue (a collection of articles) and each article. It then sends these objects to the *HTML* writer to create and compile a basic formatted html file. A very simple three step process. 
 
 I've added a ```#customize``` note behind each line that needs to be customized to the specific outlet. The key is to find the right HTML tag to retrieve the title of article, the content of the article (paragraph by paragraph), and the comments of blog articles. See the scripts for further documentation.
 
